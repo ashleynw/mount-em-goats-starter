@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=":rAe)RD0jrLMCm?H*E3V">goatImgs</variable><variable id="Q.FP0(+mygLT=XsM|1)^">goat</variable><variable type="KIND_SpriteKind" id="-)MHy[iD(Yu.wka,b|d+">Goat</variable><variable type="KIND_SpriteKind" id="MRhtw4m:Uj?LM^q^Sk#1">Player</variable><variable type="KIND_SpriteKind" id="*AE~s-kdPPS^I)RTFZ5U">Projectile</variable><variable type="KIND_SpriteKind" id="k%.%ga$#L865Gbi^:q`F">Food</variable><variable type="KIND_SpriteKind" id="N[hufO|l362Q~mNkyM2+">Enemy</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id=":rAe)RD0jrLMCm?H*E3V">goatImgs</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_create_with" inline="false"><mutation items="6"/><value name="ADD0"><block type="screen_image_picker"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="XJcc{3~vh!P~|Z(L9KM0">Goat</variable><variable type="KIND_SpriteKind" id="O;P]xZw$C2j)27M,1A9r">StackGoat</variable><variable id="%V45@R*+|GCl#SiwmNl4">goatImgs</variable></variables><block type="pxt-on-start" id="zDO{c|/+o9*w%P-9pkg#" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="d_U{f6.]q-MEESwFFKyL"><field name="VAR" id="%V45@R*+|GCl#SiwmNl4">goatImgs</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_create_with" id="$~z.$r`fL(3AkHok~SIB" inline="false"><mutation items="6"/><value name="ADD0"><block type="screen_image_picker" id="~Wx0oa:Y^r)svwd6UieA"><field name="img">img`
 . . . . . . . . . . . . f e e . 
 . . . . . . . . . . . . . e e . 
 . . . . . . . . . . . . d c d c 
@@ -11,7 +11,7 @@ e d d d d d d d d d d d d a d d
 . . . d . d . . d . d . . . . . 
 . . . d . d . . d . d . . . . . 
 . . . e . e . . e . e . . . . . 
-`</field></block></value><value name="ADD1"><block type="screen_image_picker"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image7"}}</data></block></value><value name="ADD1"><block type="screen_image_picker" id="m(Rqc.jB_8Ec(/zb6Uej"><field name="img">img`
 . . . . f f . . . . . . . . . . . . . 
 . . d f f d f . . . . . . . . . . . . 
 . 4 4 4 4 4 4 4 . . . . . . . . . . . 
@@ -26,7 +26,7 @@ e d d d d d d d d d d d d a d d
 . . . . . 4 . 4 . . . . . 2 . 4 . . . 
 . . . . . 4 . 4 . . . . . 2 . 4 . . . 
 . . . . . 4 . 4 . . . . . 2 . 4 . . . 
-`</field></block></value><value name="ADD2"><block type="screen_image_picker"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image8"}}</data></block></value><value name="ADD2"><block type="screen_image_picker" id="_~LwHOFVOSQ(?=p]{z!8"><field name="img">img`
 . . . . . . . . b b d . . d d b . . . 
 . . . . . . . . b b b b b b b b . . . 
 . . . . . . . . . b b d b b d . . . . 
@@ -41,7 +41,7 @@ e d d d d d d d d d d d d a d d
 . . c . b . . . c c c c . . . . . . . 
 . . c . b . . . . b . c . . . . . . . 
 . . c . b . . . . b . c . . . . . . . 
-`</field></block></value><value name="ADD3"><block type="screen_image_picker"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image9"}}</data></block></value><value name="ADD3"><block type="screen_image_picker" id="z%KK9U8Li{XRAXk*aG/q"><field name="img">img`
 . . . . . . . . . . . . e . . e . . . 
 . . . . . . . . . . . e e e e e e . . 
 . . . . . . . . . . e e e e e e e e . 
@@ -56,7 +56,7 @@ c b b b b b b b b b b b c c c . . . .
 c c c c c c c c c c c c c . . . . . . 
 . . . . c . c . . . c . c . . . . . . 
 . . . . c . c . . . c . c . . . . . . 
-`</field></block></value><value name="ADD4"><block type="screen_image_picker"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image10"}}</data></block></value><value name="ADD4"><block type="screen_image_picker" id="G;@:HZJ)@DvUGlucb4%c"><field name="img">img`
 . . . 1 . . . . . . . . . . . . . . 
 . . 1 c c c . . . . . . . . . . . . 
 . 1 1 1 1 c c . . . . . . . . . . 1 
@@ -73,7 +73,7 @@ c c c c c c c c c c c c c . . . . . .
 . . . . 1 . 1 . . . . . . . 1 . 1 . 
 . . . . 1 . 1 . . . . . . . 1 . 1 . 
 . . . . c . c . . . . . . . c . c . 
-`</field></block></value><value name="ADD5"><block type="screen_image_picker"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image11"}}</data></block></value><value name="ADD5"><block type="screen_image_picker" id="T0iLJv4m;JFfDk)]K#F/"><field name="img">img`
 .........................
 ff.............ff...ff...
 .ff............ffffff....
@@ -92,4 +92,4 @@ ff.............ff...ff...
 .....f...f...f..f........
 .....f...f...f..f........
 .....f...f...f..f........
-`</field></block></value></block></value><next><block type="gamesetbackgroundcolor"><value name="color"><shadow type="colorindexpicker"><field name="index">9</field></shadow></value><next><block type="tilemap_editor"><field name="tilemap">tilemap`level`</field><next><block type="variables_set"><field name="VAR" id="Q.FP0(+mygLT=XsM|1)^">goat</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"/><block type="lists_index_get"><value name="LIST"><block type="variables_get"><field name="VAR" id=":rAe)RD0jrLMCm?H*E3V">goatImgs</field></block></value><value name="INDEX"><shadow type="math_number"><field name="NUM">0</field></shadow></value></block></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Goat</field></shadow></value></block></value><next><block type="camerafollow"><value name="sprite"><shadow type="variables_get"><field name="VAR" id="Q.FP0(+mygLT=XsM|1)^">goat</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image12"}}</data></block></value></block></value><next><block type="gamesetbackgroundcolor" id="7^y$IsDCH{!};bMr^/L%"><value name="color"><shadow type="colorindexpicker" id="QgKW9@MW)yV?jA5/)VTE"><field name="index">9</field></shadow></value><next><block type="tilemap_editor" id="Y2./xS|DMtj=c^d6+V|$"><field name="tilemap">tilemap`level`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level"}}</data></block></next></block></next></block></statement></block></xml>
